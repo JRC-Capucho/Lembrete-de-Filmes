@@ -20,7 +20,7 @@ Primerio projeto web com REACT e PHP com a utilização de insomnia e wampserver
 Clone 
 
 ```bash
-git clone   
+git clone https://github.com/JRC-Capucho/Lembrete-de-Filmes.git
 ```
 Recorte a pasta dbfilmes e cole dentro da pasta wamp\www\
 
