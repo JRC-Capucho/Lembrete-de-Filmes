@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Lembrete de Filmes
 
-## Available Scripts
+Um projeto CRUD (create, read, update, delete) em react como front e php como back.
+Um site de lembrete sobre os filmes que já assistiu e seu ponto de vista sobre os mesmos.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Aprendizados
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Primerio projeto web com REACT e PHP com a utilização de insomnia e wampserver
+## Instalação
+- [Wampserver](https://wampserver.aviatechno.net/)
 
-### `npm test`
+- [Node.js](https://nodejs.org/en/download/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [VScode](https://code.visualstudio.com/download)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone   
+```
+Recorte a pasta dbfilmes e cole dentro da pasta wamp\www\
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+C:\wamp64\www
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Imgur](https://i.imgur.com/y2ZXFz7.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Imgur](https://i.imgur.com/ybl21iX.png)
 
-## Learn More
+![Imgur](https://i.imgur.com/RZ52W7G.png)
+![Imgur](https://i.imgur.com/ellTkzz.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Como Usar
+Passo 1:
 
-### Code Splitting
+Abra o Wampserver quando ficar verde prossiga.
+![Imgur](https://i.imgur.com/aZlIHgR.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Vá em localhost e import o "avaliacaofilmes.sql"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+http://localhost/phpmyadmin/
+```
+![Imgur](https://www.tweaking4all.com/wp-content/uploads/2014/05/phpmyadmin-import-multiple-databases.jpg)
 
-### Making a Progressive Web App
+Passo 2:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Va até a pasta do projeto e clique com o botão direito e clique em "Abrir com VSCode"
+![Imgur](https://i.imgur.com/hXc2VND.png)
 
-### Advanced Configuration
+Dentro do VSCode abra o terminal 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Imgur](https://i.imgur.com/Wn2riLe.png)
 
-### Deployment
+Passo 3:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Dentro do terminal digite 
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+```
+Logo o sai irá abrir no seu navegador
